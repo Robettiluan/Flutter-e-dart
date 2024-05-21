@@ -1,0 +1,40 @@
+/*
+-numeros(int,double)
+-string(string)
+-boolean (bool)
+-dynamic
+*/
+main(){
+int n1 = 3 ;
+double n2 = (-5.67).abs();
+double n3 = double.parse("12.765");
+num n4 = 6;
+
+
+print(n1.abs() + n2 + n3 + n4 );
+ n4 = 6.7;
+ print (n1.abs() + n2 + n3 + n4);
+String s1 = " Bom ";
+String s2 = " Dia ";
+ print (s1 + s2.toUpperCase() + "!!!");
+
+bool estachovendo = true;
+bool muitofrio = false;
+
+
+print(estachovendo || muitofrio);/*print(estachovendo && muitofrio); pode ser feito dessa forma tambem
+*/
+dynamic x = "um texto bem legal"; 
+print(x);
+x = 777;
+print(x);       /*dynamic aceita ser mudada varias vezes durante o codigo 
+                    aceita  String,valores inteiros e tambem bool ou com ponto flutuante */
+x = false;
+print(x);
+
+              /*ja o var pode ser usado por qualquer tipo de dados mas apenas uma vez apos atribuir o valor da variavel */ 
+
+
+
+
+}
